@@ -2,15 +2,15 @@
     {
         "title": "Test 1 Title",
         "slug": "test1",
-        "fileLink": "https://raw.githubusercontent.com/d-shaktiranjan/BlogData/beta/test1.html",
+        "filePath": "blog/2023/test1.html",
         "about": "TEST about",
         "author": "Shakti Ranjan Debata",
         "date": "17th Jan 2023"
     },
     {
         "title": "Test 2 Title",
-        "slug": "learn-express",
-        "fileLink": "https://raw.githubusercontent.com/d-shaktiranjan/BlogData/beta/test2.html",
+        "slug": "test2",
+        "filePath": "blog/2023/test2.html",
         "about": "TEST about",
         "author": "Shakti Ranjan Debata",
         "date": "17th Jan 2023"
