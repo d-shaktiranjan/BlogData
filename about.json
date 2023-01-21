@@ -1,27 +1,10 @@
 [
-    
     {
-        "title": "Test with code",
+        "title": "Test blog with json",
         "slug": "test-code",
-        "filePath": "blog/2023/testCode.html",
+        "filePath": "blog/2023/blog-with-json",
         "about": "TEST with code",
         "author": "Shakti Ranjan Debata",
-        "date": "21th Jan 2023"
-    }
-    ,{
-        "title": "Test 1 Title",
-        "slug": "test1",
-        "filePath": "blog/2023/test1.html",
-        "about": "TEST about",
-        "author": "Shakti Ranjan Debata",
-        "date": "17th Jan 2023"
-    },
-    {
-        "title": "Test 2 Title",
-        "slug": "test2",
-        "filePath": "blog/2023/test2.html",
-        "about": "TEST about",
-        "author": "Shakti Ranjan Debata",
-        "date": "17th Jan 2023"
+        "date": "22th Jan 2023"
     }
 ]
