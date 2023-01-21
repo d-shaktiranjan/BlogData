@@ -1,0 +1,65 @@
+<div class='container min-height blog-content'>
+    <h1 class="accent underline">BLOG TITLE HERE</h1>
+    <div class="blog-card-left flex accent">
+        <div><i class="fa-solid fa-user"></i> AUTHOR NAME HERE</div>
+        <div><i class="fa-solid fa-calendar-days"></i> DATE HERE</div>
+    </div>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum, quas architecto beatae necessitatibus
+        nulla accusantium dolor vel, totam deleniti exercitationem tempora dignissimos quod distinctio, ea repellat.
+        Repellat voluptates eius, eligendi deleniti odit itaque aliquid quo similique. Fuga, maxime. Eaque quidem alias
+        eos quibusdam deserunt. Debitis deleniti eligendi in, aliquam laudantium fugit? Nulla fugiat perspiciatis
+        molestias, iusto enim maiores deserunt cumque, sunt fugit in temporibus. Architecto laborum suscipit repellat,
+        earum, inventore facilis id est porro nulla ullam quidem dolorem optio maxime tempora cum sint similique
+        deserunt ipsa officiis ex minima illum cumque vel neque. Hic reiciendis excepturi tempora sint facilis!
+    </div>
+    <div>
+        <div>
+            <img class='blog-image' src="IMAGE URL" alt="Unable to load" />
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non earum incidunt rem, illo expedita, alias ut,
+            iusto perferendis veritatis debitis nihil error eligendi fugiat distinctio adipisci cumque minima ducimus
+            quod dolores nesciunt commodi! Unde ex ad quibusdam est, fuga quae facere recusandae reiciendis nobis
+            aliquam quos magnam deleniti quaerat voluptatem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sed eveniet repellendus eaque numquam. Voluptas
+            perspiciatis blanditiis nam non amet. Corporis nostrum beatae deserunt. Reprehenderit suscipit dolorem
+            explicabo alias veniam, inventore fugit esse nam odio officiis assumenda et repellat dolores impedit fugiat
+            mollitia illo architecto. Iure possimus pariatur perferendis illum sed, sequi necessitatibus tempora
+            assumenda velit incidunt non porro consequatur. Culpa quis distinctio deserunt, ipsa ut quibusdam blanditiis
+            asperiores sint temporibus adipisci tempora, quasi cupiditate voluptate similique nemo incidunt esse. Quidem
+            placeat, autem impedit nihil assumenda veniam expedita voluptatum doloribus doloremque a blanditiis et ex
+            omnis mollitia. Sapiente, neque dolores.
+        </div>
+        <div className='code-in-side'>
+            <div className='copy-to-clipboard'>
+                <i className="fa-regular fa-clipboard" onClick={copyToClipBoard}></i>
+            </div>
+            <SyntaxHighlighter id="rawCode" language="javascript" style={cb} wrapLines={true} lineProps={{ style: { wordBreak: 'break-all', whiteSpace: 'pre-wrap' } }}>
+                {`
+let passCheck = () => {
+let signupButton = document.getElementById("signupButton");
+let pass = document.getElementById("pass").value;
+let cPass = document.getElementById("cPass").value;
+signupButton.disabled = pass == cPass ? false : true;
+if (!signupButton.disabled) {
+signupButton.disabled = pass.length == 0 && cPass.length == 0 ? true : false;
+}
+}
+                            
+let showPassword = (buttonID, ...inputID) => {
+if (document.getElementById(buttonID).checked) {
+inputID.forEach(element => {
+    document.getElementById(element).type = "text";
+});
+} else {
+inputID.forEach(element => {
+    document.getElementById(element).type = "password";
+});
+}
+}
+`}
+            </SyntaxHighlighter>
+        </div>
+    </div>
+</div>
