@@ -10,19 +10,27 @@
         "text-2",
         "code-1",
         "text-3",
+        "image-2",
         "code-2"
     ],
     "blogContent": {
         "heading-1": "heading 1",
         "text-1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum, quas architecto beatae necessitatibus nulla accusantium dolor vel, totam deleniti exercitationem tempora dignissimos quod distinctio, ea repellat. Repellat voluptates eius, eligendi deleniti odit itaque aliquid quo similique. Fuga, maxime. Eaque quidem alias eos quibusdam deserunt. Debitis deleniti eligendi in, aliquam laudantium fugit? Nulla fugiat perspiciatis molestias, iusto enim maiores deserunt cumque, sunt fugit in temporibus. Architecto laborum suscipit repellat, earum, inventore facilis id est porro nulla ullam quidem dolorem optio maxime tempora cum sint similique deserunt ipsa officiis ex minima illum cumque vel neque. Hic reiciendis excepturi tempora sint facilis!",
-        "image-1": "https://github.com/d-shaktiranjan/Portfolio/blob/main/src/static/me.png?raw=true",
+        "image-1": [
+            "https://github.com/d-shaktiranjan/Portfolio/blob/main/src/static/me.png?raw=true",
+            false
+        ],
         "text-2": "para 2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum, quas architecto beatae necessitatibus nulla accusantium dolor vel, totam deleniti exercitationem tempora dignissimos quod distinctio, ea repellat. Repellat voluptates eius, eligendi deleniti odit itaque aliquid quo similique. Fuga, maxime. Eaque quidem alias eos quibusdam deserunt. Debitis deleniti eligendi in, aliquam laudantium fugit? Nulla fugiat perspiciatis molestias, iusto enim maiores deserunt cumque, sunt fugit in temporibus. Architecto laborum suscipit repellat, earum, inventore facilis id est porro nulla ullam quidem dolorem optio maxime tempora cum sint similique deserunt ipsa officiis ex minima illum cumque vel neque. Hic reiciendis excepturi tempora sint facilis!",
         "code-1": [
             "blog/2023/blog-with-json/code1.js",
             "javascript",
             true
         ],
-        "text-3": "text 3 here",
+        "text-3": "My internet speed",
+        "image-2": [
+            "blog/2023/blog-with-json/speed.png",
+            true
+        ],
         "code-2": [
             "https://raw.githubusercontent.com/d-shaktiranjan/file_share/main/utils.py",
             "python",
