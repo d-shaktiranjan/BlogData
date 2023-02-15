@@ -26,7 +26,7 @@
     ],
     "blogContent": {
         "text-1": "Hey all this Shakti Ranjan Debata, welcome to my 1st blog, Here I discuss how I design my blog site.",
-        "text-2": "I divide my blog content into some categories like headings, text, code, image etc.Then I make a json file to store the data & make a public repo in GitHub & push to the repo.",
+        "text-2": "I divide my blog content into some categories like headings, text, code, image etc. Then I make a json file to store the data & make a public repo in GitHub & push to the repo.",
         "heading-1": "Repo file structure",
         "image-1": [
             "blog/2023/my-blog-design/dir_str.png",
