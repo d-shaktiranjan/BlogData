@@ -1,18 +1,10 @@
 [
     {
-        "title": "Test 1 Title",
-        "slug": "test1",
-        "fileLink": "https://raw.githubusercontent.com/d-shaktiranjan/BlogData/beta/test1.html",
-        "about": "TEST about",
+        "title": "How do I design my blog app?",
+        "slug": "my-blog-design",
+        "filePath": "blog/2023/my-blog-design",
+        "about": "Here I discuss how I stored my blog & fetch from that & render in the web app.",
         "author": "Shakti Ranjan Debata",
-        "date": "17th Jan 2023"
-    },
-    {
-        "title": "Test 2 Title",
-        "slug": "learn-express",
-        "fileLink": "https://raw.githubusercontent.com/d-shaktiranjan/BlogData/beta/test2.html",
-        "about": "TEST about",
-        "author": "Shakti Ranjan Debata",
-        "date": "17th Jan 2023"
+        "date": "15th Feb 2023"
     }
 ]
