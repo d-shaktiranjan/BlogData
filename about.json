@@ -1,5 +1,13 @@
 [
     {
+        "title": "How do I design my blog app?",
+        "slug": "my-blog-design",
+        "filePath": "blog/2023/my-blog-design",
+        "about": "Here I discuss how I stored my blog & fetch from that & render in the web app.",
+        "author": "Shakti Ranjan Debata",
+        "date": "15th Feb 2023"
+    },
+    {
         "title": "Test blog with json",
         "slug": "test-code",
         "filePath": "blog/2023/blog-with-json",
