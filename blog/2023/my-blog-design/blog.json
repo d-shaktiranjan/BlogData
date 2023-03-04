@@ -22,7 +22,12 @@
         "code-1",
         "text-9",
         "code-2",
-        "text-10"
+        "text-10",
+        "textSpan-1",
+        "link-1",
+        "textSpan-2",
+        "link-2",
+        "text-11"
     ],
     "blogContent": {
         "text-1": "Hey all this Shakti Ranjan Debata, welcome to my 1st blog, Here I discuss how I design my blog site.",
@@ -60,6 +65,17 @@
             "javascript",
             true
         ],
-        "text-10": "getBlog() fetch the blog content from blog.json and set the state variable blogContent. fetchCode() is fetching the code web according to the blog.json . Now you have the blogContent, design the web app according to you."
+        "text-10": "getBlog() fetch the blog content from blog.json and set the state variable blogContent. fetchCode() is fetching the code web according to the blog.json . Now you have the blogContent, design the web app according to you.",
+        "textSpan-1": "Okay this is the bare minimum logic, and further some improvement happens in the code base. So please visit ",
+        "link-1": [
+            "Portfolio Blog Section",
+            "https://github.com/d-shaktiranjan/Portfolio/tree/main/src/components/blog"
+        ],
+        "textSpan-2": " & ",
+        "link-2": [
+            "Blog Data Repo",
+            "https://github.com/d-shaktiranjan/BlogData"
+        ],
+        "text-11": "Thanks! 😊"
     }
 }
