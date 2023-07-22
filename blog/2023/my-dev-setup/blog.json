@@ -1,0 +1,135 @@
+{
+    "title": "My development setup",
+    "authorName": "Shakti Ranjan Debata",
+    "releaseData": "22th Jul 2023",
+    "isPublic": true,
+    "blogContent": {
+        "text-1": "Hello everyone. In this blog I will discuss my system setup for development. I mostly discuss the OS I used, system settings, IDE/editor and the extensions I used.",
+        "image-1": [
+            "blog/2023/my-dev-setup/desktop.png",
+            true
+        ],
+        "heading-1": "OS selection.",
+        "text-2": "There are many Linux distros to choose from (sorry windows folks). Previously, I used Ubuntu for 4 years and the experience was great. Currently, I am using Fedora 38. They both have GNOME desktop env and I’m a huge fan of GNOME. The main reason behind this was that Ubuntu tweaked GNOME a lot more than I wanted it to and added its own theme; yaru. But, I like the stock GNOME look & feel which uses the adwaita theme. And, the fedora repos are much more updated than ubuntu.",
+        "text-3": "So which distro should you use?. It depends on your personal preference honestly. If you are new to the Linux world then I recommend Ubuntu, Pop OS or Zorin OS, because these distros are beginner friendly, and most of the necessary packages are pre-installed. Both Pop OS & Zorin are based on Ubuntu with a bit of customizations on top of it. You can try these distros and make your selection, And if you are experienced in Linux then you know what to use.",
+        "heading-2": "Things I do after installing my OS.",
+        "text-4": "After installing the OS the first thing will be to update the packages.",
+        "text-24": "On Fedora",
+        "code-1": [
+            "blog/2023/my-dev-setup/dnfUpdate.sh",
+            "bash",
+            "true"
+        ],
+        "text-5": "On debian based distros",
+        "code-2": [
+            "blog/2023/my-dev-setup/aptUpdate.sh",
+            "bash",
+            "true"
+        ],
+        "text-6": "I like to tweak some settings here are there, So you need to install GNOME tweaks",
+        "text-18": "On Fedora",
+        "code-3": [
+            "blog/2023/my-dev-setup/installTweak.sh",
+            "bash",
+            "true"
+        ],
+        "text-19": "On debian based distros",
+        "code-6": [
+            "blog/2023/my-dev-setup/installTweakApt.sh",
+            "bash",
+            "true"
+        ],
+        "textSpan-11": "And install the ",
+        "link-1": [
+            "GNOME Shell Integration",
+            "https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep"
+        ],
+        "textSpan-1": " extension also.",
+        "text-7": "",
+        "textSpan-12": "Fedora's dock is hidden by default, but I like the dynamic dock. So I installed ",
+        "link-2": [
+            "Dash to dock",
+            "https://extensions.gnome.org/extension/307/dash-to-dock/"
+        ],
+        "textSpan-2": " extension. I like to put some directories on the desktop so I use ",
+        "link-3": [
+            "DING",
+            "https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/"
+        ],
+        "textSpan-3": " for this & to manage my clipboard I use ",
+        "link-4": [
+            "Clipboard Indicator.",
+            "https://extensions.gnome.org/extension/779/clipboard-indicator/"
+        ],
+        "text-9": "Then I enable maximize & minimize buttons on the window title bar in tweaks,  display the day on the top bar and add some keyboard shortcuts.",
+        "heading-3": "Fixing fractional scaling issue.",
+        "text-10": "If you use a HiDPI display, the scaling will be a bit off. Ubuntu and its derivatives have fractional scaling pre-configured for you. On Fedora, you can change your window system to X11, enable fractional scaling and you’re good to go. But in wayland, electron js based applications will display blurry text when fractional scaling is enabled.",
+        "text-11": "X11 has its own set of issues though. If you face slow app opening speeds, artifacting or tearing; then you can try switching back to wayland and change the scaling factor settings to your liking in gnome tweaks.",
+        "heading-4": "Customizing the terminal.",
+        "textSpan-13": "If you are using Ubuntu or Pop, its default terminal looks fine to be honest. If you don’t like the default color of the Ubuntu terminal you can change it in the terminal profile settings. If you want to change the prompt, you can use ",
+        "link-5": [
+            "ohmyposh",
+            "https://ohmyposh.dev/"
+        ],
+        "textSpan-4": " or ",
+        "link-6": [
+            "starship",
+            "https://starship.rs/guide/#%F0%9F%9A%80-installation"
+        ],
+        "text-13": "",
+        "textSpan-14": "Installing & setting up ohmyposh is very simple. Just follow ",
+        "link-7": [
+            "this",
+            "https://ohmyposh.dev/docs/installation/linux"
+        ],
+        "textSpan-5": " installation guide.",
+        "text-14": "If you are planning to install starship, you can use the default look or customize it to your liking.",
+        "text-15": "My Terminal",
+        "image-2": [
+            "blog/2023/my-dev-setup/terminal.png",
+            true
+        ],
+        "text-16": "If you want this type of look then use my toml file below.",
+        "code-4": [
+            "blog/2023/my-dev-setup/starship.toml",
+            "toml",
+            "true"
+        ],
+        "heading-5": "Some terminal settings",
+        "text-17": "I set some permanent aliases for django, xampp, gnome text editor & logout. You can put the following in your ~/.bashrc",
+        "code-5": [
+            "blog/2023/my-dev-setup/bash.bashrc",
+            "bash",
+            "true"
+        ],
+        "heading-6": "Installing packages or apps.",
+        "textSpan-18": "I use python extensively for my work which comes preinstalled in most of the linux distros. My personal projects are powered by ",
+        "link-8": [
+            "NodeJS",
+            "https://nodejs.org/en"
+        ],
+        "textSpan-6": ", so I install it via nvm. You can also install nvm by following ",
+        "link-9": [
+            "this guide.",
+            "https://github.com/nvm-sh/nvm#install--update-script"
+        ],
+        "textSpan-7": " I also use OpenJDK.",
+        "text-12": "",
+        "textSpan-19": "PSA: Everyone needs to install ",
+        "link-10": [
+            "GIT",
+            "https://git-scm.com/"
+        ],
+        "textSpan-8": ", cause without git I can’t imagine the development world.",
+        "heading-7": "IDE & editors.",
+        "textSpan-20": "I am using ",
+        "link-11": [
+            "VS Code",
+            "https://code.visualstudio.com/"
+        ],
+        "textSpan-9": " as my primary source code editor, you can also try it, it's open source and maintained by Microsoft. It ships with HTML, CSS, tsserver preconfigured. So you’re good to go if you are into web development. And do I even need to mention the amount of extensions there are in its marketplace?",
+        "text-21": "Some VS Code extensions I use: ",
+        "text-22": "Community Material Theme, Material Icon Theme, ES7+ React/Redux/React-Native snippets, Python, Git Lens. ",
+        "text-23": "And I also use IntelliJ IDEA for Java."
+    }
+}

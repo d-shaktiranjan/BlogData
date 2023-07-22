@@ -1,0 +1,29 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = false
+palette="foo"
+
+format="""
+$python$username$directory$git_branch$git_status$line_break$character
+"""
+[python]
+pyenv_version_name = true
+symbol = '🐍'
+format = '[(\($virtualenv\)[${symbol}](blue))]($style)'
+
+[directory]
+style='bold posh-blue'
+
+[username]
+style_user = 'posh-red bold'
+format = '[$user]($style) [➜](posh-green) '
+show_always = true
+
+# Define custom colors
+[palettes.foo]
+
+posh-red = '#FF6464'
+posh-blue = '#60d2ff'
+posh-green = '#3ac240'

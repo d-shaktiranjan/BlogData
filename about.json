@@ -1,5 +1,13 @@
 [
     {
+        "title": "My development setup.",
+        "slug": "my-dev-setup",
+        "filePath": "blog/2023/my-dev-setup",
+        "about": "My system setup for development & Linux distro discusstion.",
+        "author": "Shakti Ranjan Debata",
+        "date": "22th Jul 2023"
+    },
+    {
         "title": "How do I design my blog app?",
         "slug": "my-blog-design",
         "filePath": "blog/2023/my-blog-design",

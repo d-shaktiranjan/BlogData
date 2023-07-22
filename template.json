@@ -3,16 +3,6 @@
     "authorName": "AUTHOR NAME HERE",
     "releaseData": "DATE HERE",
     "isPublic": false,
-    "order": [
-        "heading-1",
-        "text-1",
-        "image-1",
-        "text-2",
-        "image-2",
-        "code-1",
-        "text-3",
-        "code-2"
-    ],
     "blogContent": {
         "heading-1": "heading 1",
         "text-1": "Text 1",
