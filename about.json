@@ -1,5 +1,13 @@
 [
     {
+        "title": "Test List support.",
+        "slug": "test-list",
+        "filePath": "blog/2023/test-list",
+        "about": "My system setup for development & Linux distro discusstion.",
+        "author": "Shakti Ranjan Debata",
+        "date": "23Sep Jul 2023"
+    },
+    {
         "title": "My development setup.",
         "slug": "my-dev-setup",
         "filePath": "blog/2023/my-dev-setup",

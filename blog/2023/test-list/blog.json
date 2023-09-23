@@ -1,0 +1,25 @@
+{
+    "title": "Test List",
+    "authorName": "Shakti Ranjan Debata",
+    "releaseData": "22th Jul 2023",
+    "isPublic": true,
+    "blogContent":{
+        "text-1": "Hello everyone. In this blog I will discuss my system setup for development. I mostly discuss the OS I used, system settings, IDE/editor and the extensions I used.",
+        "image-1": [
+            "blog/2023/my-dev-setup/desktop.png",
+            true
+        ],
+        "list-1":{
+            "type":"ol",
+            "data":[
+                "First line","2nd line"
+            ]
+        },
+        "list-2":{
+            "type":"ul",
+            "data":[
+                "First line","2nd line"
+            ]
+        }
+    }
+}
