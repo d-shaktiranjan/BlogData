@@ -1,9 +1,17 @@
 [
     {
+        "title": "What's next?",
+        "slug": "what-is-next",
+        "filePath": "blog/2024/what-is-next",
+        "about": "Not the framework, but in my life.",
+        "author": "Shakti Ranjan Debata",
+        "date": "27th Dec 2024"
+    },
+    {
         "title": "My development setup.",
         "slug": "my-dev-setup",
         "filePath": "blog/2023/my-dev-setup",
-        "about": "My system setup for development & Linux distro discusstion.",
+        "about": "My system setup for development & Linux distro discussion.",
         "author": "Shakti Ranjan Debata",
         "date": "22th Jul 2023"
     },

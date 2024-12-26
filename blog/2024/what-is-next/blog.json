@@ -1,0 +1,26 @@
+{
+    "title": "What’s next?",
+    "authorName": "Shakti Ranjan Debata",
+    "releaseData": "27th Dec 2024",
+    "isPublic": true,
+    "blogContent": {
+        "text-1": "First thing first, let me just flex my setup. Btw, Linux is ❤️.",
+        "image-1": ["blog/2024/what-is-next/setup.jpg", true],
+        "text-2": "Well, it’s almost the end of 2024. Here I’ll write my plans for 2025 and some targets I set for 2024 & their statuses.",
+        "text-3": "As usual, I planned many things for 2024 but unfortunately, I achieved 1-1=0.",
+        "heading-1": "Destructure",
+        "text-4": "My friend Rahul and I planned a blog site with interactive features. We are working on it and hopefully will finish soon. After that, the `this.blog` section will no longer be maintained.",
+        "heading-2": "Small scale startup",
+        "text-5": "I planned an e-commerce site to sell some items with a user's choice customization feature. (I’ll disclose more about this soon). Just like the previous plan, I’ll finish this soon.",
+        "heading-7": "",
+        "text-6": "Apart from these, there are many more things I left behind. Let’s skip those for now and start fresh in 2025 with the same or more enthusiastic mindset.",
+        "heading-3": "Getting out of the Node world",
+        "text-7": "Currently, I’m heavily working in the JavaScript ecosystem. Now I want to explore something different, like GoLang or Java Spring Boot.",
+        "heading-4": "Improving typing skills",
+        "text-8": "This entire blog was written in 'monkey type', not monkeytype.com, but monkey-like typing, meaning typing while looking at the keyboard. Although I have a beautiful keyboard, my typing is not good. So my next target is to master touch typing. My goal is not exactly a 100 wpm score but to achieve a decent speed.",
+        "heading-5": "Vim",
+        "text-9": "After that, I want to learn a new flexing skill. Yes, I’m talking about Vim. I want to master Vim motions.",
+        "heading-6": "...",
+        "text-10": "2024 didn’t go as planned, but it’s okay. I’m excited to start fresh in 2025 with new goals and a better mindset. There’s a lot to learn and do, and I’m looking forward to making progress and having fun along the way!"
+    }
+}
