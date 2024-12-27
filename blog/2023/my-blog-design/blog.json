@@ -1,5 +1,6 @@
 {
     "title": "How do I design my blog app?",
+    "description": "Here I discuss how I stored my blog & fetch from that & render in the web app.",
     "authorName": "Shakti Ranjan Debata",
     "releaseData": "15th Feb 2023",
     "isPublic": false,
@@ -7,38 +8,21 @@
         "text-1": "Hey all this Shakti Ranjan Debata, welcome to my 1st blog, Here I discuss how I design my blog site.",
         "text-2": "I divide my blog content into some categories like headings, text, code, image etc. Then I make a json file to store the data & make a public repo in GitHub & push to the repo.",
         "heading-1": "Repo file structure",
-        "image-1": [
-            "blog/2023/my-blog-design/dir_str.png",
-            true
-        ],
+        "image-1": ["blog/2023/my-blog-design/dir_str.png", true],
         "heading-2": "about.json",
         "text-3": "This contains multiple json objects contains blog meta data",
-        "image-2": [
-            "blog/2023/my-blog-design/about-json.png",
-            true
-        ],
+        "image-2": ["blog/2023/my-blog-design/about-json.png", true],
         "text-4": "template.json is similar to blog.json which is present in blog/2023/blog-name, so we will discuss this later",
         "text-5": "To avoid complexity I make a dir named with the year then the blog-slug folder is present inside it. Code.py, code2.html & img1.png are the static things used in the blog.",
         "heading-3": "blog.json",
         "text-6": "In blog.json contains some keys like title, authorName, releaseDate, blogContent & order. In a blog there are many texts & images used so I used json keys as image-1, image-2, text-1, text-2 etc.",
-        "image-3": [
-            "blog/2023/my-blog-design/blog-json.png",
-            true
-        ],
+        "image-3": ["blog/2023/my-blog-design/blog-json.png", true],
         "text-7": "image-1 image-2 are keys which contains an array where the 1st value is url or path, 2nd value is a boolean value which is represents isPresentInDir means is present in blog-slug folder or not, if value is true that means image is present inside the blog-slug folder and 1st value must be path of the file, if false then 1st value must be the url of the image.",
         "text-8": "Like that code-1 code-2 is designed in the same format whereas the middle variable represents the language type, which is used for syntax highlighting",
         "heading-4": "Blog listing & fetch part",
-        "code-1": [
-            "blog/2023/my-blog-design/code1.js",
-            "javascript",
-            true
-        ],
+        "code-1": ["blog/2023/my-blog-design/code1.js", "javascript", true],
         "text-9": "getContentFromWeb() is an async function which uses fetch() to get data from the web, then updateBlogList() is a function which fetches the about.json file & displays the blog list in a card format.",
-        "code-2": [
-            "blog/2023/my-blog-design/code2.js",
-            "javascript",
-            true
-        ],
+        "code-2": ["blog/2023/my-blog-design/code2.js", "javascript", true],
         "text-10": "getBlog() fetch the blog content from blog.json and set the state variable blogContent. fetchCode() is fetching the code web according to the blog.json . Now you have the blogContent, design the web app according to you.",
         "textSpan-1": "Okay this is the bare minimum logic, and further some improvement happens in the code base. So please visit ",
         "link-1": [

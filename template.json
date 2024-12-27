@@ -1,5 +1,6 @@
 {
-    "title": "BLOG TITILE HERE",
+    "title": "BLOG TITLE HERE",
+    "description": "BLOG DESCRIPTION HERE",
     "authorName": "AUTHOR NAME HERE",
     "releaseData": "DATE HERE",
     "isPublic": false,
@@ -11,15 +12,8 @@
             false
         ],
         "text-2": "Text2",
-        "image-2": [
-            "blog/2023/blog-with-json/speed.png",
-            true
-        ],
-        "code-1": [
-            "blog/2023/blog-with-json/code1.js",
-            "javascript",
-            true
-        ],
+        "image-2": ["blog/2023/blog-with-json/speed.png", true],
+        "code-1": ["blog/2023/blog-with-json/code1.js", "javascript", true],
         "text-3": "text 3 here",
         "code-2": [
             "https://raw.githubusercontent.com/d-shaktiranjan/file_share/main/utils.py",
